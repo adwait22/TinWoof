@@ -7,6 +7,13 @@ body{
   color: #fff;
 }
 
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%
+}
+
 h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 3.5rem;
@@ -15,7 +22,7 @@ h1{
 }
 
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 5%;
 }
 
 /* Navigation bar */
@@ -46,11 +53,6 @@ padding: 0 18px;
 }
 
 
-.title-image{
-  width: 60%;
-  transform: rotate(25deg);
-}
-
 /* features */
 
 #features{
@@ -58,6 +60,7 @@ padding: 0 18px;
   font-family: "Montserrat";
   padding: 10% 15% 10%;
   text-align: center;
+  position: relative;
 }
 
 h3{
