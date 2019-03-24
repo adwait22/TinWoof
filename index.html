@@ -6,7 +6,7 @@
   <title>TinWoof</title>
 
   <!-- google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu|Noto+Sans" rel="stylesheet">
 
   <!-- CSS stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -104,23 +104,44 @@
 
   <section id="testimonials">
 
-    <div class="row">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="false">
 
-      <div class="col-lg-6">
-        <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinWoof. Woof.</h2>
-        <img class="testimonial-images" src="images/dog-img.jpg" alt="dog-profile">
-        <em>Tommy, Bihar</em>
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinWoof. Woof.</h2>
+          <img class="testimonial-images" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Tommy, Bihar</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinWoof's help, he found the love of his life. I think.</h2>
+          <img class="testimonial-images" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Manila, Phillipines</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2 class="hindi">एकदम लल्लन टॉप।</h2>
+          <img class="testimonial-images" src="images/mansi.png" alt="mansi-profile">
+          <em>Bhubaneswar, Odisha</em>
+        </div>
       </div>
 
-      <div class="col-lg-6">
-        <h2 class="testimonial-text">My dog used to be so lonely, but with TinWoof's help, he found the love of their life. I think.</h2>
-        <img class="testimonial-images" src="images/lady-img.jpg" alt="lady-profile">
-        <em>Manila, Phillipines</em>
-      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
 
-
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
     </div>
-
   </section>
 
 
